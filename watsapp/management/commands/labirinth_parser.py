@@ -1,4 +1,5 @@
 import requests
+import re
 from bs4 import BeautifulSoup as bs
 from django.core.management.base import BaseCommand
 from watsapp.models import Case
